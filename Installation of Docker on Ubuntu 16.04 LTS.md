@@ -119,7 +119,6 @@ _$ sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual_
 
 ![](/assets/8.png)
 
-![](blob:https://www.gitbook.com/a8a806b9-f9ae-4f3d-8705-d44facf12398)
 
 In the terminal,
 
@@ -129,7 +128,7 @@ _sudo apt-get install docker-engine_
 
 _docker --version_
 
-![](/assets/10.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/10.png?raw=true)
 
 ![](/assets/11)
 
