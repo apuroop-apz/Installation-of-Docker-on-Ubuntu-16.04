@@ -117,6 +117,7 @@ _sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual_
 
 ![](https://github.com/apuroop-apz/docker-install/blob/master/figures/8.png?raw=true)
 
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/9.png?raw=true)
 
 In the terminal,
 
