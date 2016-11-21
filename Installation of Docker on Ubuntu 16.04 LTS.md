@@ -83,7 +83,7 @@ Type:
 
 _sudo vim docker.list_
 
-deb https://apt.dockerproject.org/repo ubuntu-xenial main
+_deb https://apt.dockerproject.org/repo ubuntu-xenial main_
 
 ![](https://github.com/apuroop-apz/docker-install/blob/master/figures/5.png?raw=true)
 
