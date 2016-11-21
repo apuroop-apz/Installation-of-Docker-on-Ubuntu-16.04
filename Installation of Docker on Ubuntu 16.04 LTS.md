@@ -2,7 +2,7 @@
 
 Docker provides a way to run applications securely isolated in a container, packaged with all its dependencies and libraries. Because your application can always be run with the environment it expects right in the build image, testing and deployment is simpler than ever, as your build will be fully portable and ready to run as designed in any environment.
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/docker_logo-1455828502290.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/docker_logo-1455828502290.png?raw=true)
 
 
 # Prerequisites:
