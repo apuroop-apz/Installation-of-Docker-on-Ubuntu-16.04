@@ -4,6 +4,9 @@ Docker provides a way to run applications securely isolated in a container, pack
 
 ![](/assets/docker_logo-1455828502290.png)
 
+https://github.com/apuroop-apz/docker-install/raw/master/assets/docker_logo-1455828502290.png
+
+
 # Prerequisites:
 
 Docker is supported on these Ubuntu operating systems:
