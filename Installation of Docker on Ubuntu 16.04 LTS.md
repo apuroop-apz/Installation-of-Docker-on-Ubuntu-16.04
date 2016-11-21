@@ -2,9 +2,7 @@
 
 Docker provides a way to run applications securely isolated in a container, packaged with all its dependencies and libraries. Because your application can always be run with the environment it expects right in the build image, testing and deployment is simpler than ever, as your build will be fully portable and ready to run as designed in any environment.
 
-![](/assets/docker_logo-1455828502290.png)
-
-https://github.com/apuroop-apz/docker-install/raw/master/assets/docker_logo-1455828502290.png
+![](https://github.com/apuroop-apz/docker-install/blob/master/docker_logo-1455828502290.png?raw=true)
 
 
 # Prerequisites:
@@ -39,7 +37,7 @@ _uname -r _
 
 This will display your kernel version.
 
-![](/assets/1.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/1.png?raw=true)
 
 ---
 
@@ -57,7 +55,7 @@ _sudo apt-get update_
 
 _sudo apt-get install apt-transport-https ca-certificates_
 
-![](/assets/2.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/2.png?raw=true)
 
 Adding a GPG key.
 
@@ -67,7 +65,7 @@ Type:
 
 _sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D_
 
-![](/assets/3.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/3.png?raw=true)
 
 In the terminal,
 
@@ -77,7 +75,7 @@ _cd /etc/apt/sources.list.d/_
 
 _sudo apt-get install vim_
 
-![](/assets/4.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/4.png?raw=true)
 
 In the terminal,
 
@@ -87,7 +85,7 @@ _sudo vim docker.list_
 
 deb https://apt.dockerproject.org/repo ubuntu-xenial main
 
-![](/assets/5)
+![](https://github.com/apuroop-apz/docker-install/blob/master/555.png?raw=true)
 
 ---
 
@@ -97,7 +95,7 @@ Type:
 
 _sudo apt-get update_
 
-![](/assets/6.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/6.png?raw=true)
 
 In the terminal,
 
@@ -105,7 +103,7 @@ Type:
 
 _apt-cache policy docker-engine_
 
-![](/assets/7.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/7.png?raw=true)
 
 ---
 
@@ -117,7 +115,7 @@ _sudo apt-get update_
 
 _$ sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual_
 
-![](/assets/8.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/8.png?raw=true)
 
 
 In the terminal,
@@ -130,7 +128,7 @@ _docker --version_
 
 ![](https://github.com/apuroop-apz/docker-install/blob/master/10.png?raw=true)
 
-![](/assets/11)
+![](https://github.com/apuroop-apz/docker-install/blob/master/11.png?raw=true)
 
 ---
 
@@ -140,7 +138,7 @@ Type:
 
 _sudo groupadd docker_
 
-![](/assets/12.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/12.png?raw=true)
 
 In the terminal,
 
@@ -148,7 +146,7 @@ Type:
 
 _sudo usermod -aG docker $USER_
 
-![](/assets/13.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/13.png?raw=true)
 
 **LOG OFF from the system and LOG back IN.**
 
@@ -160,7 +158,7 @@ Type:
 
 _docker --version_
 
-![](/assets/15.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/15.png?raw=true)
 
 In the terminal,
 
@@ -168,6 +166,6 @@ Type:
 
 _docker run hello-world_
 
-![](/assets/16.png)
+![](https://github.com/apuroop-apz/docker-install/blob/master/16.png?raw=true)
 
 ---
