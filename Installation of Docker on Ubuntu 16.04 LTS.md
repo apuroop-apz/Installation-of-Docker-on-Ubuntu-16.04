@@ -33,7 +33,7 @@ Open the terminal from the Dash
 
 Type:
 
-_uname -r _
+_uname -r_
 
 This will display your kernel version.
 
