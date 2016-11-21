@@ -37,7 +37,7 @@ _uname -r_
 
 This will display your kernel version.
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/1.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/1.png?raw=true)
 
 ---
 
@@ -55,7 +55,7 @@ _sudo apt-get update_
 
 _sudo apt-get install apt-transport-https ca-certificates_
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/2.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/2.png?raw=true)
 
 Adding a GPG key.
 
@@ -65,7 +65,7 @@ Type:
 
 _sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D_
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/3.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/3.png?raw=true)
 
 In the terminal,
 
@@ -75,7 +75,7 @@ _cd /etc/apt/sources.list.d/_
 
 _sudo apt-get install vim_
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/4.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/4.png?raw=true)
 
 In the terminal,
 
@@ -85,7 +85,7 @@ _sudo vim docker.list_
 
 deb https://apt.dockerproject.org/repo ubuntu-xenial main
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/555.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/5.png?raw=true)
 
 ---
 
@@ -95,7 +95,7 @@ Type:
 
 _sudo apt-get update_
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/6.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/6.png?raw=true)
 
 In the terminal,
 
@@ -103,7 +103,7 @@ Type:
 
 _apt-cache policy docker-engine_
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/7.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/7.png?raw=true)
 
 ---
 
@@ -115,7 +115,7 @@ _sudo apt-get update_
 
 _sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual_
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/8.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/8.png?raw=true)
 
 
 In the terminal,
@@ -126,9 +126,9 @@ _sudo apt-get install docker-engine_
 
 _docker --version_
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/10.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/10.png?raw=true)
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/11.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/11.png?raw=true)
 
 ---
 
@@ -138,7 +138,7 @@ Type:
 
 _sudo groupadd docker_
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/12.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/12.png?raw=true)
 
 In the terminal,
 
@@ -146,7 +146,7 @@ Type:
 
 _sudo usermod -aG docker $USER_
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/13.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/13.png?raw=true)
 
 **LOG OFF from the system and LOG back IN.**
 
@@ -158,7 +158,7 @@ Type:
 
 _docker --version_
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/15.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/15.png?raw=true)
 
 In the terminal,
 
@@ -166,6 +166,6 @@ Type:
 
 _docker run hello-world_
 
-![](https://github.com/apuroop-apz/docker-install/blob/master/16.png?raw=true)
+![](https://github.com/apuroop-apz/docker-install/blob/master/figures/16.png?raw=true)
 
 ---
