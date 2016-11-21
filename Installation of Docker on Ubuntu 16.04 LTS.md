@@ -113,7 +113,7 @@ Type:
 
 _sudo apt-get update_
 
-_$ sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual_
+_sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual_
 
 ![](https://github.com/apuroop-apz/docker-install/blob/master/8.png?raw=true)
 
