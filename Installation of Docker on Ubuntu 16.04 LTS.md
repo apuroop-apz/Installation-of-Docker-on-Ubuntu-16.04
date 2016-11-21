@@ -157,7 +157,7 @@ _sudo usermod -aG docker $USER_
 
 In the terminal,
 
-Type:
+Type: 
 
 _docker --version_
 
